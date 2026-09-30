@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme (used for splash screen) -->
+    <style name="Theme.BillforceOwner" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.BillforceOwner.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/bg_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="windowSplashScreenBrandingImage">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.BillforceOwner</item>
+    </style>
+</resources>

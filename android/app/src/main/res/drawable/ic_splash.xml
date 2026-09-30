@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Billforce receipt/billing icon for splash screen -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Teal background circle -->
+    <path
+        android:fillColor="#0D9488"
+        android:pathData="M54,54m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0" />
+
+    <!-- Receipt icon (white) -->
+    <!-- Main body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,28 L38,82 L54,74 L70,82 L70,28 Z" />
+    <!-- Lines on receipt -->
+    <path
+        android:fillColor="#0D9488"
+        android:strokeColor="#0D9488"
+        android:strokeWidth="2"
+        android:pathData="M44,38 L64,38 M44,46 L60,46 M44,54 L56,54" />
+</vector>
